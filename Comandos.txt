@@ -44,7 +44,7 @@ git remote -v                                           -> Lista las conexiones 
 git remote remove origin                                -> Quitar la conexion remota
 git push origin Master                                  -> sube lo ultimo del branch  respectivo (master) al repo remoto
 
-(si realizas cambios sobre otro branch y quieres subir ese branch al repo remoto)
+(si realizas cambios sobre otro branch y quieres subir ese bitranch al repo remoto)
 git push origin Test                                    -> sube lo ultimo del branch Test al repo remoto
 ===================================================
 (master)
@@ -52,7 +52,7 @@ git fetch origin                                        -> descarga los ultimos 
 git merge origin/master                                 -> realida el merge de origin/master a master
 (test)
 git fetch origin                                        -> descarga los ultimos cambios del brancg Test a la rama olculta origin/test
-git merge origin/master                                 -> realida el merge de origin/test a test
+git merge origin/test                                 -> realida el merge de origin/test a test
 
 ===================================================
 git tag -a v1.0 -m "Mensaje"                            -> Tag ANOTADA => inserta un tag a la version
