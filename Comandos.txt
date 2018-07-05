@@ -22,6 +22,7 @@ git reset --hard 543957843758457483579834579834         -> borra el commit tanto
 
 ====================================================
 git branch                                              -> lista los branches
+git branch -a                                           -> lista las ramas incluso las ocultas
 git branch Test                                         -> Crea un nuevo branch llamado Test
 git checkout Test                                       -> Moverse a otro branch
 
@@ -44,5 +45,18 @@ git remote remove origin                                -> Quitar la conexion re
 git push origin Master                                  -> sube lo ultimo del branch  respectivo (master) al repo remoto
 
 (si realizas cambios sobre otro branch y quieres subir ese branch al repo remoto)
-git push origin Test
+git push origin Test                                    -> sube lo ultimo del branch Test al repo remoto
 ===================================================
+(master)
+git fetch origin                                        -> descarga los ultimos cambios del brancg Master a la rama olculta origin/master
+git merge origin/master                                 -> realida el merge de origin/master a master
+(test)
+git fetch origin                                        -> descarga los ultimos cambios del brancg Test a la rama olculta origin/test
+git merge origin/master                                 -> realida el merge de origin/test a test
+
+===================================================
+git tag -a v1.0 -m "Mensaje"                            -> Tag ANOTADA => inserta un tag a la version
+git tag -a v0.1 - "Mesaje" 553454354543535              -> Adiciona un tag a un comit anterior
+git tag v1.0                                            -> Tag ligera
+
+git push origin v1.0                                    -> sube el tag al repo remoto
