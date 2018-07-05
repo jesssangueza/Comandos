@@ -11,7 +11,7 @@ git add index.html
 git add -A                                              -> agregar archivos
 git commit -m "Comentarios"                             -> commitea los archivos
 git log                                                 -> muestra todos los commits
-==========================================0
+==========================================
 
 git checkout 578345748758573489578345789453             -> retrocede a un commit en especifico.
 git checkout master                                     -> se va al ultimo commit realizo.
@@ -25,9 +25,11 @@ git branch                                              -> lista los branches
 git branch Test                                         -> Crea un nuevo branch llamado Test
 git checkout Test                                       -> Moverse a otro branch
 
+git checkout -b Test                                    -> Crea y se mueve al nuevo branch
+
 =========================
 
 git checkout master                                     -> Cambiar de Rama (Ir a la rama PADRE que absorvera a la rama HIJA)
 git merge Test                                          -> Realiza el merge de Test a Master
 
-git branch -d
+git branch -D Test                                      -> Elimina un branch
