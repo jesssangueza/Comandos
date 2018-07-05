@@ -10,3 +10,8 @@ git status                                              -> el estado de los arch
 git add index.html
 git add -A                                              -> agregar archivos
 git commit -m "Comentarios"                             -> commitea los archivos
+git log                                                 -> muestra todos los commits
+==========================================0
+
+git checkout 578345748758573489578345789453             -> retrocede a un commit en especifico.
+git checkout master                                     -> se va al ultimo commit realizo.
