@@ -33,3 +33,11 @@ git checkout master                                     -> Cambiar de Rama (Ir a
 git merge Test                                          -> Realiza el merge de Test a Master
 
 git branch -D Test                                      -> Elimina un branch
+====================================================
+cd ..                                                   -> Ir a la carpeta donde se quiere copiar
+git clone http://ulr                                    -> Descarga el repositorio a la carpeta seleccionada
+====================================================
+git remote add origin https://github.com/jesssangueza/Comandos.git  -> Conectar Rep local con Rep remote
+git remote -v                                           -> Lista las conexiones remotas
+git remote remove origin                                -> Quitar la conexion remota
+git push origin Master                                  -> sube lo ultimo del branch master al repo remoto
