@@ -2,3 +2,11 @@ git config --global user.name "jess"                    -> Configura el nombre d
 git config --global user.email "jes.sangueza@gmail.com" -> configura el email del usuario
 git config --global color.ui true                       -> configura los colores
 git config --global --list                              -> lista las configuraciones globales
+
+=====================================
+git init                                                -> inicaliza git
+git status                                              -> el estado de los archivos
+
+git add index.html
+git add -A                                              -> agregar archivos
+git commit -m "Comentarios"                             -> commitea los archivos
