@@ -15,3 +15,7 @@ git log                                                 -> muestra todos los com
 
 git checkout 578345748758573489578345789453             -> retrocede a un commit en especifico.
 git checkout master                                     -> se va al ultimo commit realizo.
+
+================================================
+git reset --soft 543957843758457483579834579834         -> borra el commit del repo. sin tocar tu working area
+git reset --hard 543957843758457483579834579834         -> borra el commit tanto del working area como del repo
