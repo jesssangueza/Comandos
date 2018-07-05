@@ -19,3 +19,8 @@ git checkout master                                     -> se va al ultimo commi
 ================================================
 git reset --soft 543957843758457483579834579834         -> borra el commit del repo. sin tocar tu working area
 git reset --hard 543957843758457483579834579834         -> borra el commit tanto del working area como del repo
+
+====================================================
+git branch                                              -> lista los branches
+git branch Test                                         -> Crea un nuevo branch llamado Test
+git checkout Test                                       -> Moverse a otro branch
