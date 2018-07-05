@@ -43,4 +43,6 @@ git remote -v                                           -> Lista las conexiones 
 git remote remove origin                                -> Quitar la conexion remota
 git push origin Master                                  -> sube lo ultimo del branch  respectivo (master) al repo remoto
 
+(si realizas cambios sobre otro branch y quieres subir ese branch al repo remoto)
+git push origin Test
 ===================================================
