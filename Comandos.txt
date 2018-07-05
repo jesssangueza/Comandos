@@ -24,3 +24,10 @@ git reset --hard 543957843758457483579834579834         -> borra el commit tanto
 git branch                                              -> lista los branches
 git branch Test                                         -> Crea un nuevo branch llamado Test
 git checkout Test                                       -> Moverse a otro branch
+
+=========================
+
+git checkout master                                     -> Cambiar de Rama (Ir a la rama PADRE que absorvera a la rama HIJA)
+git merge Test                                          -> Realiza el merge de Test a Master
+
+git branch -d
